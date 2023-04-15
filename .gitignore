@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+pyvenv.cfg
+# Environment variables
+.env
+
+# Flask instance folder
+instance/
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+
+# Generated files
+*.pyc
+*.pyo
+*.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Other
+*.DS_Store
+Thumbs.db
+bin/
+lib/
