@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first template with FlaskAPI</title>
+</head>
+<body>
+    <h1>
+        Hello world by render template with FlaskAPI
+    </h1>
+    <ul id="navigation">
+    {% for num in range(100) %}
+        <h1> {% print(num) %} </h1>
+    {% endfor %}
+    </ul>
+    <h1>My WebPage</h1>
+    {{ a_variable }}
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Tenetur deserunt rem id voluptatibus nisi distinctio
+        non voluptate quis sed dolorum velit atque eius temporibus
+        sint iure nesciunt, quasi sunt est.
+    </p>
+</body>
+</html>
